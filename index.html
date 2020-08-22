@@ -2,10 +2,12 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Nyan Cat - HTML5+CSS3+JS</title>
+	<title>Nyan Cat</title>
 
 	<link rel="icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/nyan.css"/>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/snowfall.jquery.js"></script>
 </head>
 <body>
 	<div class="sparks-combo">
@@ -35,16 +37,19 @@
 		</div>
 	</div>
 
-	<a href="https://github.com/cristurm/nyan-cat" title="Nyan Cat's home at GitHub" class="repo">
-		<i class="octicon octicon-mark-github"></i>
-		<span>My Github Repo</span>
-	</a>
-
 	<audio autoplay="true" loop="true">
 		<source src="audio/nyan-cat.ogg" type="audio/ogg" />
 		<source src="audio/nyan-cat.mp3" type="audio/mpeg" />
 	</audio>
 
 	<script src="js/nyan.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function(){
+			$(document).snowfall({image:"./js/img/1.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+            $(document).snowfall({image:"./js/img/1.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+            $(document).snowfall({image:"./js/img/2.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+            $(document).snowfall({image:"./js/img/4.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+		});
+	</script>
 </body>
 </html>

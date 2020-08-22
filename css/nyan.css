@@ -625,3 +625,12 @@ body {
   background-size: 18px 6px, 22px 6px, 6px 6px;
   background-position: 0 0, 6px 6px, 28px 12px;
 }
+
+.snowfall-flakes{animation:sakura 1s linear 0s infinite;}
+@keyframes sakura{
+	0% {transform:rotate3d(0, 0, 0, 0deg);}
+	25%{transform:rotate3d(1, 1, 0, 60deg);}
+	50%{transform:rotate3d(1, 1, 0, 0deg);}
+	75%{transform:rotate3d(1, 0, 0, 60deg);}
+	100% {transform:rotate3d(1, 0, 0, 0deg);}
+	}
