@@ -1,10 +1,10 @@
-# Nyan Cat
+# 彩虹猫 Nyan Cat
 
-This repo is first fork from https://github.com/cristurm/nyan-cat
+This repo bases on and is forked from https://github.com/cristurm/nyan-cat
 
 [The original demo](http://cristurm.github.io/nyan-cat/)
 
-# 修改
+# 修改 Changes
 
-背景spark修改为樱花。
-
+1. 背景添加樱花飘落效果。Added the effect of falling cherry blossom petals. 
+2. 删除自动播放音乐。Deleted the `<audio>` tag.
