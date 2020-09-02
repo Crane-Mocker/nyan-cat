@@ -232,7 +232,7 @@ var snowFall = (function(){
                 
                 // initialize the flakes
                 for(i = 0; i < defaults.flakeCount; i+=1){
-                    flakes.push(new flake(element, random((defaults.minSize * 100), (defaults.maxSize * 100)) / 100, random(defaults.minSpeed, defaults.maxSpeed)));
+                    flakes.push(new flake(element, random((defaults.minSize * 90), (defaults.maxSize * 80)) / 100, random(defaults.minSpeed, defaults.maxSpeed)));
                 }
                 // start the snow
                 animateSnow();
