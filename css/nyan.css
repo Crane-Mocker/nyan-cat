@@ -10,7 +10,10 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #036;
+  background-image: url("../js/img/cherry-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 body {
